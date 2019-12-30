@@ -6,7 +6,7 @@
 * １の場合１０回の場合、LEDが点滅後、点灯。  
 * 数字以外の文字が書き込まれた場合は動作しない。  　　
 
-# 実行方法
+## 実行方法
 raspberrypi B の　GPIO２５にLEDをつなぐ
  ```bash
 git clone https://github.com/OtsukiTaisuke/robosys2019.git
@@ -17,5 +17,5 @@ echo 1 > /dev/myled0
 echo 0 > /dev/myled0
 sudo rmmod kadai.ko
 ```
-# demo video
+## demo video
 https://youtu.be/cgRfnZJb3D8
