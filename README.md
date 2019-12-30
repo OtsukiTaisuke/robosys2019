@@ -10,7 +10,7 @@
 raspberrypi B の　GPIO２５にLEDをつなぐ
  ```bash
 git clone https://github.com/OtsukiTaisuke/robosys2019.git
-
+cd robosys2019
 make
 sudo insmod kadai.ko
 sudo chmod 666 /dev/myled0
