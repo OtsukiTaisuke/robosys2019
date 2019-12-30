@@ -7,7 +7,7 @@
 * 数字以外の文字が書き込まれた場合は動作しない。  　　
 
 ## 実行方法
-raspberrypi B の　GPIO２５にLEDをつなぐ
+raspberrypi BのGPIO２５にLEDをつなぐ
  ```bash
 git clone https://github.com/OtsukiTaisuke/robosys2019.git
 cd robosys2019
