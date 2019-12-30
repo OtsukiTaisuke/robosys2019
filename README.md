@@ -8,7 +8,11 @@
 
 # 実行方法
 　make
- 
+ ```bash
+git clone https://github.com/hoge/~
+cd examples
+python demo.py
+```
 
 # demo video
 https://youtu.be/cgRfnZJb3D8
