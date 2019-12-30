@@ -7,12 +7,15 @@
 ・数字以外の文字が書き込まれた場合は動作しない。
 
 # 実行方法
-　make
+raspberrypi B の　GPIO２５にLEDをつなぐ
  ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+git clone https://github.com/OtsukiTaisuke/robosys2019.git
+make
+sudo insmod kadai.ko
+sudo chmod 666 /dev/myled0
+echo 1 > /dev/myled0
+echo 0 > /dev/myled0
+sudo rmmod kadai.ko
 ```
-
 # demo video
 https://youtu.be/cgRfnZJb3D8
